@@ -9,7 +9,7 @@ function Translate({ language, text }) {
     return (
       <div className="translate">
         <label className="label">Output</label>
-        {error ? <h1 className="error">{error}</h1> : <h1 className="title">Loading...</h1>}
+        {error ? <h1 className="error">{error}</h1> : <h1 className="title">*Please input text to translate*</h1>}
       </div>
     );
   }
